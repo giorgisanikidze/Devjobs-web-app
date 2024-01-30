@@ -42,6 +42,9 @@ const Home = (props) => {
      
         </div>
       </div>
+      <div className="overlay" style={{display : props.filterDisplay ? "block" : "none"}}>
+
+      </div>
     </>
   )
 }
